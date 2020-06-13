@@ -44,6 +44,12 @@ int Siguiente(int primo)
         primo++;
         return primo;
     }
+    else if (primo == 3)
+    {
+
+        primo = primo + 2;
+        return primo;
+    }
     else
     {
 
