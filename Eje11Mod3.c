@@ -32,7 +32,6 @@ int Siguiente(int primo)
 
     int div, rest;
     div = 2;
-    rest = primo % div;
 
     if (primo == 1)
     {
@@ -47,7 +46,7 @@ int Siguiente(int primo)
     else if (primo == 3)
     {
 
-        primo = primo + 2;
+        primo += 2;
         return primo;
     }
     else
