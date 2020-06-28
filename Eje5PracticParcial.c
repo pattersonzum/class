@@ -1,8 +1,6 @@
 #include <stdio.h>
 //Se ingresa por cada empleado un número de sueldos correspondiente a tres sectores donde realizan tareas distintas. Alguno de ellos puede ser cero, lo que significa que no realizan tareas en ese sector.
 
-int promedio(int);
-
 void porcent(int *, int *, int *, int);
 
 int promedioEdad(int, int);
