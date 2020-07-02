@@ -82,7 +82,7 @@ void procesar(char *etapas, float *costos, float *costA, float *costB, float *co
         }
     }
 
-    *montoPub = costPublicidad;
+    *montoPub = costoMenor;
 }
 
 
