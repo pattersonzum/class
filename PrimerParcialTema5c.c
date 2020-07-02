@@ -50,7 +50,7 @@ void procesar(char *etapas, float *costos, float *costA, float *costB, float *co
     float costPublicidad = 0, costoMenor = 10000000000;
 
     int i, contador = 0;
-    printf("\nBienvenido... \nEsta función debe emitir por cada publicidad ingresada cuánto dinero costó por cada etapa que se procesan.\n\n", i);
+    printf("\nBienvenido... \nEsta función debe emitir por cada publicidad ingresada cuánto dinero costó por cada etapa que se procesan.\n\n");
 
     for (i = 1; i < 11; i++)
     {
