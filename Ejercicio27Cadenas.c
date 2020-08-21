@@ -18,7 +18,7 @@ int largo(char*cadena){
 int main(){
 
 
-    char cadena[]="this is the my only frined";
+    char cadena[]="this is the end my only friend";
 
 
    printf("El largo del string es: %d\n",largo(cadena));
