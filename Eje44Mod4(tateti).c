@@ -48,13 +48,11 @@ void cargarTablero(char tablero[][DIM], int tam)
 
 void mostrarTablero(char tab[][DIM], int tam)
 {
-    int fila = 0;
+
     printf("\nTablero actual:\n");
 
     for (int i = 0; i <= 2; i++)
     {
-        fila++;
-
         printf("\t");
 
         for (int j = 0; j <= 2; j++)
@@ -83,7 +81,7 @@ void ingresarDato(char tab[][DIM], int dim)
 
     j = j - 1;
 
-    if (validarEspacio(tab, i, j) == 0)
+    if (!validarEspacio(tab, i, j))
     {
         mostrarTablero(tab, dim);
         printf("\n*********************************************************************************\nLo sentimos: La casilla que seleccionaste está llena, por favor vuelve a elegir\n*********************************************************************************\n");
